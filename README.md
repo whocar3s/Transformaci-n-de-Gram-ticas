@@ -1,1 +1,1 @@
-# Transformaci-n-de-Gram-ticas
+# Transformación de Gramáticas
