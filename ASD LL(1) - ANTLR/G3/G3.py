@@ -74,9 +74,8 @@ print('Original:')
 imprimirGramatica( gramaticam)
 
 gramatica_sin_recursion = eliminarRecursionIzquierda(gramatica)
-print('Sin recursion:')
-imprimirGramatica(gramatica_sin_recursion)
 
 gramaticaConFactorComun = factorComunPorLaIzquierda(gramatica)
-print('Factorización:')
-imprimirGramatica(gramaticaConFactorComun)
+
+print('Transformada:')
+imprimirGramatica(gramatica)
