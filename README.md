@@ -46,11 +46,17 @@ D → B
 E → tres
 ```
 Esta gramática solo cuenta con recursión por la izquierda en esta regla `B → B cuatro C cinco`
+
 - Transformación de la gramática en consola:
+    
     <img src="./src/G1python.png" alt="gramatica1" width="400"/>
+
 - Arboles:
+    
     - Gramática original:
+    
     <img src="./src/G1original.png" alt="arbolg1Original" width="500"/>
+    
     - Gramática transformada:
 
         Cadena: `dos cuatro seis cinco tres`
@@ -71,11 +77,17 @@ C → siete B
 C → ɛ
 ```
 Esta gramática no cuenta con recursión por la izquierda, ni con factores comunes por la izquierda de forma directa
+
 - Transformación de la gramática en consola:
+    
     <img src="./src/G2python.png" alt="gramatica1" width="400"/>
+
 - Arboles:
+    
     - Gramática original:
+    
     <img src="./src/G2original.png" alt="arbolg2Original" width="500"/>
+    
     - Gramática transformada:
 
         <img src="./src/G2transformada.png" alt="arbolg1Original" width="500"/>
@@ -95,10 +107,14 @@ C → ɛ
 ```
 Esta gramática solo cuenta con recursión por la izquierda en esta regla `S → S uno`
 - Transformación de la gramática en consola:
+    
     <img src="./src/G3python.png" alt="gramatica1" width="400"/>
+
 - Arboles:
     - Gramática original:
+
     <img src="./src/G3original.png" alt="arbolg1Original" width="500"/>
+    
     - Gramática transformada:
 
         Cadena: `dos cuatro tres cuatro tres uno`
